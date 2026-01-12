@@ -1,4 +1,5 @@
 import { Github, Linkedin, FileText } from "lucide-react";
+import resume from './../assets/resume.pdf';
 
 const Footer = () => {
   return (
@@ -28,7 +29,7 @@ const Footer = () => {
           </a>
 
           <a
-            href="src/assets/resume.pdf"
+            href={resume}
             target="_blank"
             rel="noreferrer"
             className="hover:text-white transition"
