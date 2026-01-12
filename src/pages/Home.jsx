@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { ArrowRight } from "lucide-react";
+import img5 from "../assets/img5.jpeg";
 
 const roles = ["Frontend", "Backend", "Full Stack"];
 
@@ -74,7 +75,7 @@ const Home = () => {
             </div>
             <div className="relative w-72 h-72 rounded-full bg-gradient-to-br from-indigo-500 to-indigo-700 ">
               <img
-                src="/images/img5.jpeg"   // replace with your image
+                src={img5}   // replace with your image
                 alt="Profile"
                 className="w-full h-full opacity-90 object-cover object-top rounded-full border-4 border-white shadow-xl"
               />

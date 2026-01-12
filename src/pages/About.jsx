@@ -1,3 +1,5 @@
+import img5 from "../assets/img5.jpeg";
+
 const About = () => {
   return (
     <section className="min-h-screen pt-28 bg-gradient-to-br from-indigo-50 via-white to-slate-100">
@@ -24,7 +26,7 @@ const About = () => {
               {/* Image Circle */}
               <div className="relative w-64 h-64 rounded-full overflow-hidden border-4 border-white shadow-xl">
                 <img
-                  src="/images/img5.jpeg"   // replace with your image
+                  src={img5}   // replace with your image
                   alt="Profile"
                   className="w-full h-full opacity-90 object-top object-cover"
                 />
