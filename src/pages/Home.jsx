@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { ArrowRight } from "lucide-react";
 import img5 from "../assets/img5.jpeg";
+import { Link } from "react-router-dom";
 
 const roles = ["Frontend", "Backend", "Full Stack"];
 
@@ -51,19 +52,18 @@ const Home = () => {
 
           {/* Buttons */}
           <div className="flex gap-4">
-            <a
-              href="/portfolio/projects"
+            <Link to ="/projects"
               className="inline-flex items-center gap-2 bg-indigo-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-700 transition"
             >
               View Projects <ArrowRight size={18} />
-            </a>
+            </Link>
 
-            <a
-              href="/portfolio/contact"
+            <Link to ="/contact"
+              
               className="inline-flex items-center gap-2 border border-slate-400 px-6 py-3 rounded-lg hover:border-indigo-600 hover:text-indigo-600 transition"
             >
               Contact Me
-            </a>
+            </Link>
           </div>
         </div>
 
