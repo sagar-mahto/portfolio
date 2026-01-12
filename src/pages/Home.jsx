@@ -52,14 +52,14 @@ const Home = () => {
           {/* Buttons */}
           <div className="flex gap-4">
             <a
-              href="/projects"
+              href="/portfolio/projects"
               className="inline-flex items-center gap-2 bg-indigo-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-700 transition"
             >
               View Projects <ArrowRight size={18} />
             </a>
 
             <a
-              href="/contact"
+              href="/portfolio/contact"
               className="inline-flex items-center gap-2 border border-slate-400 px-6 py-3 rounded-lg hover:border-indigo-600 hover:text-indigo-600 transition"
             >
               Contact Me
