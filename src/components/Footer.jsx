@@ -28,7 +28,7 @@ const Footer = () => {
           </a>
 
           <a
-            href="/resume.pdf"
+            href="src/assets/resume.pdf"
             target="_blank"
             rel="noreferrer"
             className="hover:text-white transition"
