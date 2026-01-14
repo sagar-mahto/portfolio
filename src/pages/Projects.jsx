@@ -17,8 +17,8 @@ const projects = [
     tech: "Node.js, MongoDB",
     desc: "Secure login & signup system with JWT authentication.",
     image: authImg,
-    github: "https://github.com/sagar-mahto/auth-system",
-    live: "",
+    github: "https://github.com/sagar-mahto/authentication-system",
+    live: "https://authentication-system-lake-seven.vercel.app/",
   },
   {
     title: "Dashboard App",
